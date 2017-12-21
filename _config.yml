@@ -1,14 +1,14 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
+title: Dodam Lab | A simple dodam blog
 description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+url: "http://cloone1224.github.io/dodam-blog"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "YoungChan Lee"
+  email: "cloone1224@gmail.com"
+  url: "http://cloone1224.github.io/dodam-blog"
 
 # Build settings
-baseurl: /emerald/ # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
