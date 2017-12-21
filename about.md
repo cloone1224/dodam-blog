@@ -1,21 +1,10 @@
 ---
-layout: page
-title: About Emerald
+layout: default
+title: About Dodam Lab
 ---
 ## About
-Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
+해당 블로그는 KingFelix/emerald 템플릿으로 구성되어 있으며, 개발 과정에서 느꼈던 모든 이슈와 히스토리를 공유 및 관리하는 목적으로 만들어졌습니다.
 
-For further details on Emerald, please visit the [repository on Github](https://github.com/KingFelix/emerald/).
+불철주야 고생하시는 모든 개발자분들에게 조금이나마 도움이 되었으면 합니다.
 
-![Emerald](img/Emerald01.png "Emerald")
-
-### Setup
-Emerald may be installed by simply downloading the .zip folder from the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
-
-After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find it there.
-
-Additionally it is possible to fork the repository and use Github Pages as hosting. By following this way it will be enough to change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or simply with a "/" (slash) if you want install Emerald in the root. 
-
-Last but not least: the [Jekyll documentation](http://jekyllrb.com) is the best starting point!
-
-Enjoy!
+행복하시길!!

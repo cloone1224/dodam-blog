@@ -2,6 +2,11 @@
 	<div id="nav-list">
 		<a href="{{ site.baseurl }}">Home</a>
 
+		<a href="{{ site.baseurl }}/About">About Dodam Lab</a>
+
+	</div>
+		
+	<div id="nav-list">
 		<!-- Nav pages -->
 	  {% for page in site.pages %}
 	    {% if page.layout == "page" %}
@@ -10,7 +15,7 @@
 	  {% endfor %}
     
     <!-- Nav links -->
-	  {% include link.html %}
+	  <!-- {% include link.html %} -->
 
 	</div>
   
