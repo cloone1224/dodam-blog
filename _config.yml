@@ -1,14 +1,14 @@
 # Site settings
 title: Dodam Lab | A simple dodam blog
 description: "A minimal blog template, build with Jekyll."
-url: "http://cloone1224.github.io"
+url: "http://cloone1224.github.io/dodam-blog"
 author:
   name: "YoungChan Lee"
   email: "cloone1224@gmail.com"
-  url: "http://cloone1224.github.io"
+  url: "http://cloone1224.github.io/dodam-blog"
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /dodam-blog/ # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
