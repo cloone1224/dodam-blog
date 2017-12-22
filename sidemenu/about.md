@@ -11,15 +11,18 @@ title: About Dodam Lab
 또한, 클라이언트에서 블로그에 대한 작업을 진행한 후 로컬에서 확인한 뒤 Github에 업로드를 하였습니다.
 일련의 개발에 대한 가이드는 아래 제작 활용 프로그램의 도움을 받았습니다.
 
+참고로 Jekyll은 Markdown의 변형판인 [Kramdown](https://kramdown.gettalong.org/quickref.html)을 사용하였으므로 약간의 문법 차이가 있다.
+
 ### 제작 활용 프로그램 및 사이트
 
-- [Jekyll](http://pad.haroopress.com)
-- [Notepad++](https://notepad-plus-plus.org)
-- [MarkdownViewer](https://github.com/nea/MarkdownViewerPlusPlus)
-- [Haropad](http://pad.haroopress.com)
-- [Python](https://www.python.org)
-- [Ruby](https://rubyinstaller.org)
-- [Github Desktop](https://desktop.github.com)
+- [Jekyll](http://pad.haroopress.com): *Github의 블로그 스타일을 지정하자*{: style="font-size: 14px"}
+- [Notepad++](https://notepad-plus-plus.org): *블로그에 사용하는 소스를 편집하자!*{: style="font-size: 14px"}
+- [MarkdownViewer](https://github.com/nea/MarkdownViewerPlusPlus): *Notepad++에서 작업한 Markdown 소스를 바로바로 확인하자!*{: style="font-size: 14px"}
+- [Haropad](http://pad.haroopress.com): *Markdown의 문법을 공부하고 바로 확인하자!*{: style="font-size: 14px"}
+- [Python](https://www.python.org): *로컬에서의 Jekyll 구동을 위한 필요 모듈!*{: style="font-size: 14px"}
+- [Ruby](https://rubyinstaller.org): *로컬에서의 Jekyll 구동을 위한 필요 모듈!*{: style="font-size: 14px"}
+- [Github Desktop](https://desktop.github.com): *로컬에서 작업한 내용을 Github 저장소와 연결하자!*{: style="font-size: 14px"}
+- [Disqus](https://disqus.com): *게시글에 댓글을 달자!*{: style="font-size: 14px"}
 
 불철주야 고생하시는 모든 개발자분들에게 조금이나마 도움이 되었으면 합니다.
 
