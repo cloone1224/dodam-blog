@@ -1,21 +1,24 @@
 <nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
 	<div id="nav-list">
 		<a href="{{ site.baseurl }}">Home</a>
-		<a href="{{ site.baseurl }}/sidemenu/about">About Dodam Lab</a>
-		<!-- <a href="{{ site.baseurl }}/sidemenu/csharp">csharp</a> -->
+		<a href="{{ site.baseurl }}/about">About Dodam Lab</a>
 	</div>
 		
 	<div id="nav-list">
 		<!-- Nav pages -->
-	  {% for page in site.pages %}
+	  <!-- {% for page in site.pages %}
 	    {% if page.layout == "page" %}
 	      <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
 	    {% endif %}
-	  {% endfor %}
+	  {% endfor %} -->
+	  
+		<a href="{{ site.baseurl }}/unity3d">Unity3D</a>
+		<a href="{{ site.baseurl }}/csharp">C#</a>
+		<a href="{{ site.baseurl }}/algorithm">Algorithm</a>
+		<a href="{{ site.baseurl }}/collaboration">Collaboration</a>
     
     <!-- Nav links -->
 	  <!-- {% include link.html %} -->
-
 	</div>
   
   <!-- Nav footer -->

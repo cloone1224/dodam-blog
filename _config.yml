@@ -11,17 +11,31 @@ author:
 baseurl: /dodam-blog/ # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 #theme: emerald
-#gems:
-#    - jekyll-paginate
-#exclude:
-#    - Gemfile
-#    - Gemfile.lock
+plugins: [jekyll-paginate-v2]
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    
+#paginate: nil
+#paginate_path: nil
+    
+# Produces a cleaner folder structure when using categories
+permalink: /:year/:month/:title.html
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 8
+  permalink: '/page:num/'
+  #permalink: '/page/:num/'
+  #title: ':title - page :num of :max'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 source: .
 destination: ./_site
-#permalink: /:year/:month/:title.html
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
 
 # Default values
 defaults:
@@ -39,18 +53,7 @@ version: "1.0.0"
 custom_header: false
 custom_nav_footer: false
 reverse: false
-
-plugins: [jekyll-paginate]
    
-#pagination:
-#    enabled: true
-#    per_page: 2
-#    permalink: '/page/:num/'
-#    title: ' - page :num'
-#    limit: 0
-#    sort_field: 'date'
-#    sort_reverse: true
-
 # Disqus Comments
 disqus:
     shortname: dodam-blog

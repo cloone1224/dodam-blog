@@ -1,14 +1,19 @@
 ---
 layout: default
+pagination: 
+  enabled: true
+  category: main
 ---
 
+{% include list.html %}
+
 <!-- Posts -->
-<ul id="posts">
+<!-- <ul id="posts">
 
 	{% for post in paginator.posts %}
 		
 		  <li class="post">
-			<a href="{{ site.baseurl }}{{ post.url }}"><font size="3" color=#006666>[{{ post.category}}]</font></a>
+			<a href="{{ site.baseurl }}{{ post.url }}"><font size="3" color=#006666>[{{ post.category-name }}]</font></a>
 			<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 			<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
 			<p>{{ post.content | strip_html | truncatewords:50 }}</p>
@@ -16,4 +21,4 @@ layout: default
 
     {% endfor %}
 
-</ul>
+</ul> -->

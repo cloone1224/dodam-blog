@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: About Dodam Lab
+permalink: /about/
 ---
 ## About
 해당 블로그는 KingFelix/emerald 템플릿으로 구성되어 있으며, 개발 과정에서 느꼈던 모든 이슈와 히스토리를 공유 및 관리하는 목적으로 만들어졌습니다.
